@@ -1,0 +1,32 @@
+nav ul li{
+  display: inline-block;
+}
+
+.nav-menu__item {
+  margin-left: 4rem;
+}
+
+.nav-menu__text {
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.nav-menu__link i{
+  font-size: 2.5rem;
+  color: #2945FF;
+}
+
+.nav-menu__hamburguer {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-menu__item {
+    display: none;
+  }
+  .nav-menu__hamburguer {
+    display: block;
+  }
+}
+

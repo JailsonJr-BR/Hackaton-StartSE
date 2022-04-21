@@ -1,0 +1,35 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  padding: 1.75rem 9%;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #000;
+}
+
+h1 {
+  font-size: 7.2rem;
+  letter-spacing: -3px;
+  line-height: 80px;
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+
+p, a {
+  font-size: 2rem;
+  line-height: 
+  32px;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+

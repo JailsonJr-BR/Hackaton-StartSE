@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.__home-left  {
+  margin-top: -10rem;
+}
+
+.__home-left span {
+  color: #162CBF;
+}
+.__home-item {
+  margin-bottom: 4rem;
+}
+
+.__home-btn {
+  padding: 1.7rem 10rem;
+  background: #162CBF;
+  border-radius: 32px;
+  color: #fff;
+}
