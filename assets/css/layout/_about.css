@@ -1,0 +1,26 @@
+.__about-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3rem;
+}
+
+.__about-img {
+  display: flex;
+  align-items: center;
+  background: #EDF5FF;
+  margin: 0 auto;
+  width: 370px;
+  height: 300px;
+}
+
+.__about-item img {
+  margin: 0 auto;
+}
+
+.__about-item h3 {
+  margin-top: 2rem;
+}
+
+.__about-item p {
+  font-size: 1.6rem;
+}

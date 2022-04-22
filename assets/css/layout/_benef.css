@@ -6,6 +6,7 @@
   margin: 0 auto;
   text-align: center;
   max-width: 70rem;
+  margin-bottom: 7rem;
 }
 
 .__description-home p {
@@ -16,7 +17,6 @@
 .__benef-cards {
   display: flex;
   justify-content: space-between;
-  margin-top: 7rem;
 }
 
 .__benef-item {
