@@ -1,0 +1,40 @@
+.space-home {
+  margin-top: 15rem;
+}
+
+.__description-home {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 70rem;
+}
+
+.__description-home p {
+  margin: 0 auto;
+  max-width: 55rem;
+  margin-top: 1rem;
+}
+.__benef-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7rem;
+}
+
+.__benef-item {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  padding: 2rem;
+}
+
+.__benef-item p {
+  font-size: 1.6rem;
+}
+
+.__benef-item:first-child {
+  background: #EDF5FF;
+}
+
+.__benef-item:last-child {
+  background: #F5EDFF;
+}
+

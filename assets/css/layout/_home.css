@@ -1,11 +1,12 @@
 .home {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 3rem;
 }
 
 .__home-left  {
-  margin-top: -10rem;
+  max-width: 500px;
 }
 
 .__home-left span {
@@ -17,7 +18,8 @@
 
 .__home-btn {
   padding: 1.7rem 10rem;
-  background: #162CBF;
+  background: #2945FF;
   border-radius: 32px;
   color: #fff;
 }
+
