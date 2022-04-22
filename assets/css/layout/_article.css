@@ -1,0 +1,12 @@
+.article h2 {
+  margin-bottom: 3rem;
+}
+
+.__article-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.__article-item h3 {
+  text-align: center;
+}
