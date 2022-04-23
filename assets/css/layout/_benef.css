@@ -38,3 +38,18 @@
   background: #F5EDFF;
 }
 
+@media screen and (max-width: 1024px) {
+  .__benef-cards {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .__benef-item {
+    flex-direction: column;
+    margin: 1rem 0;
+    text-align: center;
+    width: 100%;
+   
+  }
+}

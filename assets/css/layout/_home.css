@@ -23,3 +23,23 @@
   color: #fff;
 }
 
+@media screen and (max-width: 1024px) {
+  .home {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .home img {
+    width: 90%
+  }
+
+  .__home-left {
+    margin-bottom: 5rem;
+  }
+
+  .__home-right {
+    align-items: center;
+    ;
+  }
+}
+
