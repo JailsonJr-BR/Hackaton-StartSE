@@ -2,11 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 3rem;
+  margin-top: 10rem;
 }
 
 .__home-left  {
-  max-width: 500px;
+  inline-size: 450px;
+  display: flex;
+  flex-direction: column;
 }
 
 .__home-left span {
@@ -17,10 +19,12 @@
 }
 
 .__home-btn {
-  padding: 1.7rem 10rem;
+  padding: 1.4rem;
   background: #2945FF;
   border-radius: 32px;
   color: #fff;
+  text-align: center;
+  width: 70%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -35,11 +39,15 @@
 
   .__home-left {
     margin-bottom: 5rem;
+    text-align: center;
   }
 
   .__home-right {
     align-items: center;
     ;
+  }
+  .__home-btn {
+    width: 100%;
   }
 }
 

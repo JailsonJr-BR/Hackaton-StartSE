@@ -1,0 +1,52 @@
+.explore-banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30rem;
+  background: #EDF5FF;
+  margin-top: 6rem;
+  position: absolute;
+  left: 0;
+  top: 8rem;
+}
+
+.explore-banner__text {
+  text-align: center;
+  inline-size: 53rem;
+}
+
+.explore-banner__text h1 {
+  margin-bottom: 2rem;
+}
+
+.clearfix {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.clearfix li {
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}
+
+.clearfix img {
+  width: 100%;
+}
+
+.home-momento {
+margin-top: 50rem;
+}
+
+.home-momento img{
+  width: 100%;
+}
+
+.home-covid img {
+  width: 100%;
+}
+
+.explore__text {
+  margin-bottom: 2rem;
+}

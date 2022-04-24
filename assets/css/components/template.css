@@ -1,0 +1,89 @@
+body.dark{
+  background: #111111;
+  }
+
+.dark .label {
+  background: #fff;
+}
+
+.dark .label .ball {
+  background: #2945ff;
+}
+
+.darktext h1 {
+  color: #fff;
+}
+
+.darktext h2 {
+  color: #fff;
+}
+
+.darktext h3 {
+  color:#fff;
+}
+
+.darktext p {
+  color: #fff;
+}
+
+.darktext .nav-menu__text {
+  color: #fff;
+}
+
+.darktext .explore-banner__text h1 {
+  color: #000;
+}
+
+.darktext .explore-banner__text p {
+  color: #000;
+}
+
+
+.dark, .__benef-item-text p, .__benef-item-text h3 {
+    color: #000;
+  }
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  background-color: #2945ff;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+  margin-left: 4rem;
+
+}
+
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: #2945ff;
+}
+
+.fa-sun {
+  color: #fff;
+}

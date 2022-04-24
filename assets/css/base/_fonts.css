@@ -39,3 +39,10 @@
 
 .fa-bars::before {
   content: "\f0c9"; }
+
+  .fa-moon::before {
+    content: "\f186"; }
+
+    .fa-sun::before {
+      content: "\f185"; }
+    

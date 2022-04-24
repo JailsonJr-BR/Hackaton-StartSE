@@ -14,64 +14,45 @@
     <div class="logo">
       <a class="logo__link" href="#"><img src="assets/img/logo.svg" alt=""> </a>
     </div>
-    <nav>
-      <ul class="nav-menu">
-        <li class="nav-menu__item">
-          <a href="/" class="nav-menu__link">
-            <span class="nav-menu__text">
-              Início
-            </span>
-          </a>
-        </li>
-        <li class="nav-menu__item">
-          <a href="/" class="nav-menu__link">
-            <span class="nav-menu__text">
-              Sobre
-            </span>
-          </a>
-        </li>
-        <li class="nav-menu__item">
-          <a href="/" class="nav-menu__link">
-            <span class="nav-menu__text">
-              Explorar
-            </span>
-          </a>
-        </li>
-        <li class="nav-menu__item">
-          <a href="/" class="nav-menu__link">
-            <span class="nav-menu__text">
-              Contato
-            </span>
-          </a>
-        </li>
-        </li>
-        <li class="nav-menu__item">
-          <a href="/" class="nav-menu__link">
-            <i class="fa-solid fa-search"></i>
-          </a>
-        </li>
-        <li class="nav-menu__item nav-menu__hamburguer">
-          <a href="/" class="nav-menu__link">
-            <i class="fa-solid fa-bars"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <div class="nav-menu__app">
+      <div class="nav-menu__item">
+        <a href="/" class="nav-menu__link">
+          <i class="fa-solid fa-search"></i>
+        </a>
+      </div>
+      <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
+    </div>
+
+
   </header>
+  <div class="menu2">
+    <nav class="navbar">
+      <a href="index.html">Inicio</a>
+      <a href="#about">Sobre</a>
+      <a href="assets/pages/explore.html">Explorar</a>
+      <a href="">Contato</a>
+    </nav>
+  </div>
 
   <main>
 
     <div class="home">
       <div class="__home-left">
         <div class="__home-item">
-          <h1><span>Lorem</span> ipsum
-            Dolor sit amet.</h1>
+          <h1><span>Seu</span> portal<br> da saúde</h1>
         </div>
 
         <div class="__home-item">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id rhoncus turpis. Nullam cursus auctor lorem eleifend sagittis.</p>
+          <p>O seu portal da saúde, nutrição e bem estar em uma linguagem simples e acessível, Tudo que você precisa em um só lugar.</p>
         </div>
-        <a href="" class="__home-btn">Explorar</a>
+        <a href="assets/pages/explore.html" class="__home-btn">Explorar</a>
       </div>
       <div class="__home-right">
         <img src="assets/img/home.svg" alt="">
@@ -79,7 +60,7 @@
     </div>
 
 
-    <div class="benef space-home">
+    <div id="about" class="benef space-home">
       <div class="__description-home">
         <h2>Consectetur adipiscing elit</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id rhoncus turpis. Nullam sagittis.</p>
