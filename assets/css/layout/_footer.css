@@ -1,0 +1,30 @@
+.footer {
+  position: absolute;
+  left: 0;
+  background: #2645ff;
+  width: 100%;
+  color: #fff;
+}
+
+._footer-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 9%;
+}
+
+._footer-icon a{
+  margin-right: 1.5rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+  ._footer-box {
+    text-align: center;
+    justify-content: center;
+  }
+  ._footer-box div {
+    margin-bottom: 2rem;
+  }
+}

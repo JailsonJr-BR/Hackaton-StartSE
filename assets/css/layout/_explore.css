@@ -4,20 +4,18 @@
   align-items: center;
   justify-content: center;
   height: 30rem;
-  background: #EDF5FF;
+  background-image: url(../../img/home2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 6rem;
   position: absolute;
   left: 0;
   top: 8rem;
 }
 
-.explore-banner__text {
+.explore-banner__text h1{
   text-align: center;
-  inline-size: 53rem;
-}
-
-.explore-banner__text h1 {
-  margin-bottom: 2rem;
+  color: #fff;
 }
 
 .clearfix {
@@ -45,6 +43,18 @@ margin-top: 50rem;
 
 .home-covid img {
   width: 100%;
+}
+
+.home-momento img:hover {
+  border: solid .5rem #2645ff;
+}
+
+.home-covid img:hover {
+  border: solid .5rem #2645ff;
+}
+
+.clearfix img:hover {
+  border: solid .5rem #2645ff;
 }
 
 .explore__text {

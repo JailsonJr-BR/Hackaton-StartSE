@@ -27,6 +27,10 @@
   width: 70%;
 }
 
+.__home-btn:hover {
+  background: #162CBF;
+}
+
 @media screen and (max-width: 1024px) {
   .home {
     flex-wrap: wrap;

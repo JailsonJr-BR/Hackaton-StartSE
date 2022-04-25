@@ -19,3 +19,7 @@
 @import url(./components/template.css);
 
 @import url(layout/_explore.css);
+
+@import url(layout/_footer.css);
+
+@import url(layout/_article-page.css);
