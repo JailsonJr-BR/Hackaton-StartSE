@@ -45,18 +45,6 @@ margin-top: 50rem;
   width: 100%;
 }
 
-.home-momento img:hover {
-  border: solid .5rem #2645ff;
-}
-
-.home-covid img:hover {
-  border: solid .5rem #2645ff;
-}
-
-.clearfix img:hover {
-  border: solid .5rem #2645ff;
-}
-
 .explore__text {
   margin-bottom: 2rem;
 }
